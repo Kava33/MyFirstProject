@@ -18,5 +18,27 @@
   "bugs": {
     "url": "https://github.com/Kava33/MyFirstProject/issues"
   },
-  "homepage": "https://github.com/Kava33/MyFirstProject#readme"
+  "homepage": "https://github.com/Kava33/MyFirstProject#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-stage-0": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-remember": "^1.0.1",
+    "gulp-sass": "^4.0.1",
+    "node-sass": "^4.9.3",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^5.1.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@babel/runtime": "^7.0.0"
+  }
 }
